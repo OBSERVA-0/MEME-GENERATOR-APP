@@ -9,26 +9,37 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <p class="some-class-value">Hi, My name is Lionel Messi. I love coding because football was boring, I conqured the whole world. I'm literally the goat.</p>
-   <li><a href="https://messi.com/en/"> Heres a link to see all my awesomeness</a>
-    And here is also a picture of me!!
-    Your are staring at Greatness 
-</li>
-     <p>
-       
-     </p>
-       <img src="https://imageio.forbes.com/specials-images/imageserve/61a54d17791162420606c32e/Ballon-D-Or-Ceremony-At-Theatre-Du-Chatelet---Inside-Ceremony-In-Paris/0x0.jpg?crop=3331,1875,x0,y122,safe&height=400&width=711&fit=bounds" class="some-style" width="200" />
-      <p> Here's a list of some of my achievements: </p>
-    <ul>
-      <li>4 times championsLeague winner</li>
-       <li>All time record holder for the most goals in a single year [92] </li>
-       <li>Won every Single trophy possible in world football</li>
-       <li>8 time ballondor winner who can compete? no one</li>
-       <li>Que mira abobo</li>
-       <li>Que mira abobo</li>
-       <li>Andela pasa abobo</li>
-    </ul>
-     <button id="btn-1" class = "my-btn"> CLICK TO LEARN A FACT </button>
+       <main>
+        <section class ="content">
+          <h2> Ouput</h2>
+          <div>
+          <h3> Programmer Memes</h3>
+            <div class="meme-content"></div>
+            </div>
+            <div>
+          <h3>Tell me soemthing funny</h3>
+            <div class="joke-content"></div>
+            </div>
+            <div>
+          <h3>Give me some wisdom</h3>
+            <div class="quote-content"></div>
+            </div>
+            <div>
+          <h3>I want a riddle</h3>
+            <div class="riddle-content"></div>
+            </div>
+        </section>
+        <section class="sidebar">
+          <h2>Actions</h2>
+          <button onclick="showMeme()">Show a Meme</button>
+          <button onclick="showJoke()">Tell Me a Joke</button>
+          <button onclick="showQuote()">Random Quote</button>
+          <button onclick="showRiddle()">Riddle me</button>
+          <button class="reveal-btn" onclick="revealAnswers()">
+            Reveal Riddle Answer
+          </button>
+        </section>
+       </main>
         <script src="script.js"> </script>
     </body>
 </html>
