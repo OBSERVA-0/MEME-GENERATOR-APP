@@ -12,14 +12,14 @@ body {
   }
   
   img {
-    border: 1px solid white;
+    border: 1px solid rgb(51, 188, 92);
     border-radius: 5px;
     max-width: 350px;
     width: 100%;
   }
   
   p {
-    color: #8097a6;
+    color: #961d25;
   }
   a {
     color: white;
