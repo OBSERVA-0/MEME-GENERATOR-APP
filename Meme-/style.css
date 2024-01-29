@@ -105,33 +105,4 @@ body {
 
 
 
-
-
-
-
-
-/* body {
-    background-color: rgb(63, 24, 147);
-    border: rgb(112, 126, 66);
-    padding: 1ch;
-}
-    .some-style {
-        animation: rotate 3s infinite;
-        transition: all 2s ease-in-out;
-        border: 6px solid red;
-    }
-
-    @keyframes rotate {
-        0% { transform: rotate(0deg); }
-        100% { transform: rotate(360deg); }
-    }
-
-    .my-btn {
-        background-color: darkgreen;
-        border-color: black;
-        font-size: 23px; 
-        font-style: italic;
-        display: flex;  
-    } */
-
    
