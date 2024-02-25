@@ -1,7 +1,7 @@
 
 
 body {
-    background-color: #1d2326;
+    background: url('C:/Users/junio/Downloads/_724368ff-0655-4448-a626-b941cb4a84ba.jpg') center/cover no-repeat;
     color: #bfa38a;
     font-family: monospace;
   }
@@ -19,10 +19,10 @@ body {
   }
   
   p {
-    color: #961d25;
+    color: #f2f2f2fe;
   }
   a {
-    color: white;
+    color: rgba(18, 15, 15, 0.981);
   }
   
   a:hover {
