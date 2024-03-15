@@ -1,9 +1,10 @@
 
 
 body {
-  background: url('C:/Users/junio/Downloads/_724368ff-0655-4448-a626-b941cb4a84ba.jpg') center/100% no-repeat;
+  background: url('../.vscode/_724368ff-0655-4448-a626-b941cb4a84ba.jpg') center/100% no-repeat;
   color: #9a8b7e;
   font-family: monospace;
+  animation: zoomInOut 10s infinite alternate;
 }
 
 header {
@@ -26,6 +27,7 @@ header {
   p {
     color: #f2f2f2fe;
     font-size: 2.0em;
+    text-shadow: rgba(0, 0, 0, 0.485) 1px 1px 1px;
   }
   a {
     color: rgba(18, 15, 15, 0.981);
