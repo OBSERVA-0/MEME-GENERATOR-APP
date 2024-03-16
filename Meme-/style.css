@@ -1,7 +1,7 @@
 
 
 body {
-  background: url('C:/Users/junio/Desktop/MEME GENERATOR APP/Meme-/images/_724368ff-0655-4448-a626-b941cb4a84ba.jpg') center/100% no-repeat;
+  background: url(../Meme-/background.jpg) center/100% no-repeat;
   color: #9a8b7e;
   font-family: monospace;
   animation: zoomInOut 10s infinite alternate;
@@ -25,9 +25,9 @@ header {
   }
   
   p {
-    color: #f2f2f2fe;
+    color: white;
     font-size: 2.0em;
-    text-shadow: rgba(0, 0, 0, 0.485) 1px 1px 1px;
+    text-shadow: rgba(182, 71, 71, 0.485) 1px 1px 1px;
   }
   a {
     color: rgba(18, 15, 15, 0.981);
